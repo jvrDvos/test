@@ -1,3 +1,4 @@
+import React from 'react';
 import robertoG from "../assets/organizers/robertoG.jpeg";
 import franciscoA from "../assets/organizers/franciscoA.jpg";
 import juanillaA from "../assets/organizers/juanillaA.jpg";

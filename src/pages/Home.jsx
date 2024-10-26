@@ -1,3 +1,4 @@
+import React from 'react';
 import XOpsSection from "../componenets/XOpsSection";
 import Themes from "../componenets/Themes";
 import SpeakersSection from "../componenets/SpeakersSection";

@@ -1,3 +1,4 @@
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "./assets/xops.png";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
@@ -36,7 +37,7 @@ const scrollToPonentes = () => {
 
   return (
     <>
-<Router>
+<Router basename="/xops">
 <div className="root home-main-section">
         <Navbar bg="light" expand="lg" className='header'>
         <Navbar.Brand href="#home" className='text-white font-weight-bold'>XOPS CONFERENCE</Navbar.Brand>
@@ -79,7 +80,6 @@ const scrollToPonentes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/Organizers" element={<Organizers />} />
         <Route path="/Sponsor" element={<Sponsor />} />
-        {/* Otras rutas aquí */}
       </Routes>
 
 

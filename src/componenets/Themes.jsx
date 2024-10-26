@@ -1,3 +1,4 @@
+import React from 'react';
 import AnimationWrapper from './AnimationWrapper';
 import Theme1 from '../assets/theme1.jfif'
 import Theme2 from '../assets/theme2.jfif'

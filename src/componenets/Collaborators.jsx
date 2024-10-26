@@ -1,4 +1,6 @@
+import React from 'react';      
 import seguridadS from "../assets/Collaborators/seguridad.si.jpg";
+import Amaxop from "../assets/Collaborators/amaxop.jpeg";
 import hackerD from "../assets/Collaborators/hackerD.png";
 import hackB from "../assets/Collaborators/hackB.png";
 import flaghuntersT from "../assets/Collaborators/flaghuntersT.png";
@@ -28,6 +30,13 @@ const Collaborators = () => {
                   <img src={seguridadS} alt="Roberto Gonzalez" style={{ height: '180px', width: '200px' }} />
                 </AnimationWrapper>
             </div>
+  
+            <div className="speaker-img">
+                <AnimationWrapper animation="fade-left" duration={1500}>
+                  <img src={Amaxop} alt="Roberto Gonzalez" style={{ height: '180px', width: '200px' }} />
+                </AnimationWrapper>
+            </div>
+
             </div>
           </div>
 

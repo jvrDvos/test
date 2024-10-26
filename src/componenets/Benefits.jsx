@@ -1,3 +1,4 @@
+import React from 'react';
 import banner from '../assets/banner.jfif'
 import AnimationWrapper from './AnimationWrapper';
 import { BsMegaphone, BsGlobe } from 'react-icons/bs';
