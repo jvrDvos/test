@@ -8,7 +8,7 @@ import AnimationWrapper from "./AnimationWrapper";
 const Organizers = () => {
   return (
     <>
-      <section id="organizrs" className="speaker-section ">
+      <section  className="speaker-section ">
         <div className="container margin-top">
           <h2 className="text-center">Organizadores</h2>
 
@@ -39,12 +39,12 @@ const Organizers = () => {
                   </p>
 
                   <p>
-                    <strong>Redes:</strong><br/>
-                    <p>
-                    Twitter: <a href="https://twitter.com/robedugonzalez" target="_blank">@robedugonzalez</a><br/>
-                    LinkedIn: <a href="https://www.linkedin.com/in/robertoegonzalez1" target="_blank">in/robertoegonzalez1</a>
-                    </p>
+                      <strong>Redes:</strong><br />
                   </p>
+                  <div>
+                      Twitter: <a href="https://twitter.com/robedugonzalez" target="_blank">@robedugonzalez</a><br />
+                      LinkedIn: <a href="https://www.linkedin.com/in/robertoegonzalez1" target="_blank">in/robertoegonzalez1</a>
+                  </div>
 
                 {/*  <button className="button mt-3">Aprende Más</button>  */}
 
@@ -109,12 +109,12 @@ const Organizers = () => {
                   Autodidacta. Eterno aprendiz. 
                   </p>
                   <p>
-                    <strong>Redes:</strong><br/>
-                    <p>
-                    Twitter: <a href="https://twitter.com/spectertj" target="_blank">@spectertj</a><br/>
-                    LinkedIn: <a href="https://www.linkedin.com/in/spectertj" target="_blank">in/spectertj</a>
-                    </p>
+                      <strong>Redes:</strong><br />
                   </p>
+                  <div>
+                      Twitter: <a href="https://twitter.com/spectertj" target="_blank">@spectertj</a><br />
+                      LinkedIn: <a href="https://www.linkedin.com/in/spectertj" target="_blank">in/spectertj</a>
+                  </div>
 
                 {/*  <button className="button mt-3">Aprende Más</button>  */}
                 </AnimationWrapper>

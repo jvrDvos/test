@@ -16,7 +16,7 @@ import AnimationWrapper from "./AnimationWrapper";
 const Collaborators = () => {
   return (
     <>
-      <section id="ponentes" className="speaker-section ">
+      <section className="speaker-section ">
         <div className="container margin-top">
           <h2 className="text-center">Gracias al patrocinio de:</h2>
           <h2 className="text-center">PLATA</h2>

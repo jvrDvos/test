@@ -5,7 +5,7 @@ import { BsMegaphone, BsGlobe } from 'react-icons/bs';
 
 const Benefits = () => {
   return (
-    <section id="patrocinio" className="collaboration-sponsorship-section banner-section">
+    <section className="collaboration-sponsorship-section banner-section">
       <div className="container">
         <h2 className="text-center margin-top">Colaboración y Patrocinio</h2>
         <p className="text-center">
