@@ -1,13 +1,13 @@
 import React from 'react';      
-import seguridadS from "../assets/Collaborators/seguridad.si.jpg";
-import Amaxop from "../assets/Collaborators/amaxop.jpeg";
-import hackerD from "../assets/Collaborators/hackerD.png";
-import hackB from "../assets/Collaborators/hackB.png";
-import flaghuntersT from "../assets/Collaborators/flaghuntersT.png";
-import hackBcn from "../assets/Collaborators/hackBcn.png";
-import asturC from "../assets/Collaborators/asturC.jpeg";
-import madridD from "../assets/Collaborators/madridD.png";
-import morterueloC from "../assets/Collaborators/morterueloC.png";
+import seguridadS from "../assets/collaborators/seguridad.si.jpg";
+import amaxop from "../assets/collaborators/amaxop.jpeg";
+import hackerD from "../assets/collaborators/hackerD.png";
+import hackB from "../assets/collaborators/hackB.png";
+import flaghuntersT from "../assets/collaborators/flaghuntersT.png";
+import hackBcn from "../assets/collaborators/hackBcn.png";
+import asturC from "../assets/collaborators/asturC.jpeg";
+import madridD from "../assets/collaborators/madridD.png";
+import morterueloC from "../assets/collaborators/morterueloC.png";
 
 
 import AnimationWrapper from "./AnimationWrapper";
@@ -33,7 +33,7 @@ const Collaborators = () => {
   
             <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
-                  <img src={Amaxop} alt="Roberto Gonzalez" style={{ height: '180px', width: '200px' }} />
+                  <img src={amaxop} alt="Roberto Gonzalez" style={{ height: '180px', width: '200px' }} />
                 </AnimationWrapper>
             </div>
 

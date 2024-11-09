@@ -25,6 +25,10 @@ const EventSchedule = () => {
   const octavoHid = () => setoctavoS(false);
   const octavoShow = () => setoctavoS(true);
 
+  const [nuevS, setnuevS] = useState(false);
+  const nuevHid = () => setnuevS(false);
+  const nuevShow = () => setnuevS(true);
+
   const [diezS, setdiezS] = useState(false);
   const diezHid = () => setdiezS(false);
   const diezShow = () => setdiezS(true);
@@ -93,7 +97,7 @@ const EventSchedule = () => {
                     </Modal.Body>
                     <Modal.Footer style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
                         <div>
-                            <p className="card-text" style={{ textAlign: 'left', margin: '0', padding: '0' }}>Hila Fish</p>
+                            <p className="card-text" style={{ textAlign: 'left', margin: '0', padding: '0' }}>Aga Bielak</p>
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
@@ -124,7 +128,7 @@ const EventSchedule = () => {
                     onHide={sestoHid} 
                 >
                     <Modal.Header closeButton>
-                        <Modal.Title>Navegando por el caos: un enfoque holístico para la gestión de incidentes</Modal.Title>
+                        <Modal.Title>Ambientes efímeros con Serverless y Custom Resources.</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                     Uno de los principales problemas que encontramos cuando trabajamos con Serverless a nivel arquitectura, es el paso de los ambientes de desarrollo y testing a los ambientes productivos, la misma naturaleza del Serverless hace que sea complejo la validación de manera local delas nuevas funcionalidades, esto conlleva tener que validar las features en el Cloud provider directamente que dependiendo de distintos factores puede ser un cuello de botella.
@@ -244,7 +248,6 @@ const EventSchedule = () => {
               </div>
             </div>
           </div>  
-          
 
           {/* Alejandro A. Evento */}
           <div className="col-md-6 mb-4">
@@ -253,7 +256,7 @@ const EventSchedule = () => {
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Taller:</span>Salon Actos</h5>
                 <p className="card-text">14:50 PM - 50 min</p>
-                <p>Descubre y aplica la estrategia que utilizan xOPS para mejorar de trabajo.</p>
+                <p>Descubre y aplica la estrategia que utilizan XOPS para mejorar de trabajo.</p>
                 <p>Alejandro Acosta</p>
 
                 <button onClick={octavoShow} className="button menu-btn">Más Detalles</button>
@@ -263,7 +266,7 @@ const EventSchedule = () => {
                     onHide={octavoHid} 
                 >
                     <Modal.Header closeButton>
-                        <Modal.Title>Descubre y aplica la estrategia que utilizan xOPS para mejorar de trabajo.</Modal.Title>
+                        <Modal.Title>Descubre y aplica la estrategia que utilizan XOPS para mejorar de trabajo.</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                     Hablaremos de estrategias que te permitirán mejorar de trabajo y conseguir mejores oportunidades para que puedas tener entrevistas en empresas que te gustaría trabajar y poder pasar esas entrevistas en el mercado de Cloud Ops.
@@ -294,11 +297,11 @@ const EventSchedule = () => {
                 <p>AzureDevOps y la Ciberseguridad.</p>
                 <p>Joaquin Molina</p>
 
-                <button onClick={octavoShow} className="button menu-btn">Más Detalles</button>
+                <button onClick={nuevShow} className="button menu-btn">Más Detalles</button>
 
                 <Modal 
-                    show={octavoS} 
-                    onHide={octavoHid} 
+                    show={nuevS} 
+                    onHide={nuevHid} 
                 >
                     <Modal.Header closeButton>
                         <Modal.Title>AzureDevOps y la ciberseguridad.</Modal.Title>
